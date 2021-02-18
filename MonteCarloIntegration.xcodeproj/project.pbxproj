@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E7649B25DF2DBA00477D2A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7649A25DF2DBA00477D2A /* Tests_iOS.swift */; };
+		D5E764A625DF2DBA00477D2A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E764A525DF2DBA00477D2A /* Tests_macOS.swift */; };
+		D5E764A825DF2DBA00477D2A /* MonteCarloIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7647F25DF2DB700477D2A /* MonteCarloIntegrationApp.swift */; };
+		D5E764A925DF2DBA00477D2A /* MonteCarloIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7647F25DF2DB700477D2A /* MonteCarloIntegrationApp.swift */; };
+		D5E764AA25DF2DBA00477D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7648025DF2DB700477D2A /* ContentView.swift */; };
+		D5E764AB25DF2DBA00477D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7648025DF2DB700477D2A /* ContentView.swift */; };
+		D5E764AC25DF2DBA00477D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E7648125DF2DBA00477D2A /* Assets.xcassets */; };
+		D5E764AD25DF2DBA00477D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E7648125DF2DBA00477D2A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E7649725DF2DBA00477D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E7647A25DF2DB700477D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E7648525DF2DBA00477D2A;
+			remoteInfo = "MonteCarloIntegration (iOS)";
+		};
+		D5E764A225DF2DBA00477D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E7647A25DF2DB700477D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E7648D25DF2DBA00477D2A;
+			remoteInfo = "MonteCarloIntegration (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E7647F25DF2DB700477D2A /* MonteCarloIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloIntegrationApp.swift; sourceTree = "<group>"; };
+		D5E7648025DF2DB700477D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5E7648125DF2DBA00477D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E7648625DF2DBA00477D2A /* MonteCarloIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonteCarloIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E7648925DF2DBA00477D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E7648E25DF2DBA00477D2A /* MonteCarloIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonteCarloIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E7649025DF2DBA00477D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E7649125DF2DBA00477D2A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D5E7649625DF2DBA00477D2A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E7649A25DF2DBA00477D2A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D5E7649C25DF2DBA00477D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E764A125DF2DBA00477D2A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E764A525DF2DBA00477D2A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D5E764A725DF2DBA00477D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E7648325DF2DBA00477D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7648B25DF2DBA00477D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7649325DF2DBA00477D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7649E25DF2DBA00477D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E7647925DF2DB700477D2A = {
+			isa = PBXGroup;
+			children = (
+				D5E7647E25DF2DB700477D2A /* Shared */,
+				D5E7648825DF2DBA00477D2A /* iOS */,
+				D5E7648F25DF2DBA00477D2A /* macOS */,
+				D5E7649925DF2DBA00477D2A /* Tests iOS */,
+				D5E764A425DF2DBA00477D2A /* Tests macOS */,
+				D5E7648725DF2DBA00477D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E7647E25DF2DB700477D2A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7647F25DF2DB700477D2A /* MonteCarloIntegrationApp.swift */,
+				D5E7648025DF2DB700477D2A /* ContentView.swift */,
+				D5E7648125DF2DBA00477D2A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D5E7648725DF2DBA00477D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7648625DF2DBA00477D2A /* MonteCarloIntegration.app */,
+				D5E7648E25DF2DBA00477D2A /* MonteCarloIntegration.app */,
+				D5E7649625DF2DBA00477D2A /* Tests iOS.xctest */,
+				D5E764A125DF2DBA00477D2A /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E7648825DF2DBA00477D2A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7648925DF2DBA00477D2A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D5E7648F25DF2DBA00477D2A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7649025DF2DBA00477D2A /* Info.plist */,
+				D5E7649125DF2DBA00477D2A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D5E7649925DF2DBA00477D2A /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7649A25DF2DBA00477D2A /* Tests_iOS.swift */,
+				D5E7649C25DF2DBA00477D2A /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D5E764A425DF2DBA00477D2A /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E764A525DF2DBA00477D2A /* Tests_macOS.swift */,
+				D5E764A725DF2DBA00477D2A /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E7648525DF2DBA00477D2A /* MonteCarloIntegration (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E764B025DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "MonteCarloIntegration (iOS)" */;
+			buildPhases = (
+				D5E7648225DF2DBA00477D2A /* Sources */,
+				D5E7648325DF2DBA00477D2A /* Frameworks */,
+				D5E7648425DF2DBA00477D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MonteCarloIntegration (iOS)";
+			productName = "MonteCarloIntegration (iOS)";
+			productReference = D5E7648625DF2DBA00477D2A /* MonteCarloIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E7648D25DF2DBA00477D2A /* MonteCarloIntegration (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E764B325DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "MonteCarloIntegration (macOS)" */;
+			buildPhases = (
+				D5E7648A25DF2DBA00477D2A /* Sources */,
+				D5E7648B25DF2DBA00477D2A /* Frameworks */,
+				D5E7648C25DF2DBA00477D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MonteCarloIntegration (macOS)";
+			productName = "MonteCarloIntegration (macOS)";
+			productReference = D5E7648E25DF2DBA00477D2A /* MonteCarloIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E7649525DF2DBA00477D2A /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E764B625DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D5E7649225DF2DBA00477D2A /* Sources */,
+				D5E7649325DF2DBA00477D2A /* Frameworks */,
+				D5E7649425DF2DBA00477D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E7649825DF2DBA00477D2A /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D5E7649625DF2DBA00477D2A /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D5E764A025DF2DBA00477D2A /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E764B925DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D5E7649D25DF2DBA00477D2A /* Sources */,
+				D5E7649E25DF2DBA00477D2A /* Frameworks */,
+				D5E7649F25DF2DBA00477D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E764A325DF2DBA00477D2A /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D5E764A125DF2DBA00477D2A /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E7647A25DF2DB700477D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D5E7648525DF2DBA00477D2A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D5E7648D25DF2DBA00477D2A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D5E7649525DF2DBA00477D2A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D5E7648525DF2DBA00477D2A;
+					};
+					D5E764A025DF2DBA00477D2A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D5E7648D25DF2DBA00477D2A;
+					};
+				};
+			};
+			buildConfigurationList = D5E7647D25DF2DB700477D2A /* Build configuration list for PBXProject "MonteCarloIntegration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E7647925DF2DB700477D2A;
+			productRefGroup = D5E7648725DF2DBA00477D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E7648525DF2DBA00477D2A /* MonteCarloIntegration (iOS) */,
+				D5E7648D25DF2DBA00477D2A /* MonteCarloIntegration (macOS) */,
+				D5E7649525DF2DBA00477D2A /* Tests iOS */,
+				D5E764A025DF2DBA00477D2A /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E7648425DF2DBA00477D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E764AC25DF2DBA00477D2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7648C25DF2DBA00477D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E764AD25DF2DBA00477D2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7649425DF2DBA00477D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7649F25DF2DBA00477D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E7648225DF2DBA00477D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E764AA25DF2DBA00477D2A /* ContentView.swift in Sources */,
+				D5E764A825DF2DBA00477D2A /* MonteCarloIntegrationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7648A25DF2DBA00477D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E764AB25DF2DBA00477D2A /* ContentView.swift in Sources */,
+				D5E764A925DF2DBA00477D2A /* MonteCarloIntegrationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7649225DF2DBA00477D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E7649B25DF2DBA00477D2A /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E7649D25DF2DBA00477D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E764A625DF2DBA00477D2A /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E7649825DF2DBA00477D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E7648525DF2DBA00477D2A /* MonteCarloIntegration (iOS) */;
+			targetProxy = D5E7649725DF2DBA00477D2A /* PBXContainerItemProxy */;
+		};
+		D5E764A325DF2DBA00477D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E7648D25DF2DBA00477D2A /* MonteCarloIntegration (macOS) */;
+			targetProxy = D5E764A225DF2DBA00477D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5E764AE25DF2DBA00477D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E764AF25DF2DBA00477D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5E764B125DF2DBA00477D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.MonteCarloIntegration;
+				PRODUCT_NAME = MonteCarloIntegration;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E764B225DF2DBA00477D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.MonteCarloIntegration;
+				PRODUCT_NAME = MonteCarloIntegration;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E764B425DF2DBA00477D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.MonteCarloIntegration;
+				PRODUCT_NAME = MonteCarloIntegration;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5E764B525DF2DBA00477D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.MonteCarloIntegration;
+				PRODUCT_NAME = MonteCarloIntegration;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5E764B725DF2DBA00477D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MonteCarloIntegration (iOS)";
+			};
+			name = Debug;
+		};
+		D5E764B825DF2DBA00477D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MonteCarloIntegration (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E764BA25DF2DBA00477D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MonteCarloIntegration (macOS)";
+			};
+			name = Debug;
+		};
+		D5E764BB25DF2DBA00477D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MonteCarloIntegration (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E7647D25DF2DB700477D2A /* Build configuration list for PBXProject "MonteCarloIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E764AE25DF2DBA00477D2A /* Debug */,
+				D5E764AF25DF2DBA00477D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E764B025DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "MonteCarloIntegration (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E764B125DF2DBA00477D2A /* Debug */,
+				D5E764B225DF2DBA00477D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E764B325DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "MonteCarloIntegration (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E764B425DF2DBA00477D2A /* Debug */,
+				D5E764B525DF2DBA00477D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E764B625DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E764B725DF2DBA00477D2A /* Debug */,
+				D5E764B825DF2DBA00477D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E764B925DF2DBA00477D2A /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E764BA25DF2DBA00477D2A /* Debug */,
+				D5E764BB25DF2DBA00477D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E7647A25DF2DB700477D2A /* Project object */;
+}
